@@ -1,0 +1,14 @@
+form random import *
+user_password = input("inter password") 
+password = ('a-z') 
+
+whil(guess!=user password):
+
+   guess=""
+
+   for letter in range(len(user_password)):
+        guess_letter=password[randint(0,25)]
+        guess=str(guess_letter)+str(guess)
+         print(guess) 
+         
+prient("your correct password is",guess) 
